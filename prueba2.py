@@ -6,3 +6,5 @@ print("Example")
 int x=5
 function
 print("hello")
+print("hi")
+int x = 5
