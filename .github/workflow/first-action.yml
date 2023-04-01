@@ -8,5 +8,5 @@ jobs:
     steps: #Una vez definimos el ambiente donde se ejecutara, ahora si corremos los steps
       - name: Print greeting #Para agregar los steps, agregamos un guion por cada step, y tambien por cada step, agregamos un nombre.
         run: echo "Hello_world" #aqeui ponemos el comando, que es ejecutado en la linea de comandos
-      - name: idk
+      - name: Print bye bye
         run: echo "bye bye"
