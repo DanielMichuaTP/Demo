@@ -9,4 +9,10 @@ jobs:
       - name: Print greeting #Para agregar los steps, agregamos un guion por cada step, y tambien por cada step, agregamos un nombre.
         run: echo "Hello_world" #aqeui ponemos el comando, que es ejecutado en la linea de comandos
       - name: Print bye bye
-        run: echo "bye bye"
+        run: echo "bye bye" 
+  conditional: 
+      needs: first-job
+      runs-on: ubuntu-latest
+      steps:
+        - name: condicion
+          run: echo "si funciona"
