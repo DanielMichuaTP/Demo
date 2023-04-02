@@ -11,8 +11,8 @@ jobs:
       - name: Print bye bye
         run: echo "bye bye" 
   conditional: 
-      needs: first-job
-      runs-on: ubuntu-latest
-      steps:
-        - name: condicion
-          run: echo "si funciona"
+    needs: first-job
+    runs-on: ubuntu-latest
+    steps:
+      - name: condicion
+        run: echo "si funciona"
